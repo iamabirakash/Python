@@ -31,8 +31,16 @@ print("Modulus of a and b is :-",a%b)
 print("-----------------------------------------")
 
 #BOOLEAN OPERATORS
-import random
+'''import random
 a=random.randint(1,9)
 b=random.randint(1,9)
 ans=eval(input("What is "+str(a)+" "+str(b)+" :- "))
-print("Your ans is :-",a+b==ans)
+print("Your ans is :-",a+b==ans)'''
+print("-----------------------------------------")
+
+#COMPARSION OPERATORS
+print(10>5)
+print(True>False)
+print(5.5>5)
+print('x'>'@')
+print('Z'<'5')
