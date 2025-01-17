@@ -1,0 +1,14 @@
+a=8
+print(type(a))
+a=8.7
+print(type(a))
+a='DJ'
+print(type(a))
+a=[1,2,3]
+print(type(a))
+a=(1,2,3)
+print(type(a))
+a={1:'a',2:'b'}
+print(type(a))
+a=3+10j
+print(type(a))
