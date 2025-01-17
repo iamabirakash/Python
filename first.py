@@ -1,14 +1,27 @@
 a=8
-print(type(a))
+print("The value of a is",a)
+print("Datatype is ",type(a))
 a=8.7
-print(type(a))
+print("The value of a is",a)
+print("Datatype is ",type(a))
 a='DJ'
-print(type(a))
+print("The value of a is",a)
+print("Datatype is ",type(a))
 a=[1,2,3]
-print(type(a))
+print("The value of a is",a)
+print("Datatype is ",type(a))
 a=(1,2,3)
-print(type(a))
+print("The value of a is",a)
+print("Datatype is ",type(a))
 a={1:'a',2:'b'}
-print(type(a))
+print("The value of a is",a)
+print("Datatype is ",type(a))
 a=3+10j
-print(type(a))
+print("The value of a is",a)
+print("Datatype is ",type(a))
+a={1,2,3}
+print("The value of a is",a)
+print("Datatype is ",type(a))
+
+'Rows are also known as tuples or records'
+'Coloumns are also known as Fields'
