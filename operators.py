@@ -5,6 +5,7 @@ Logical Membership Identity'''
 'Addition'
 a=5
 b=3
+print("ADDITION")
 print("The value of a is :-",a)
 print("The value of b is :-",b)
 
@@ -27,3 +28,11 @@ print("Floor Divison of a and b is :-",a//b)
 
 'Modulus'
 print("Modulus of a and b is :-",a%b)
+print("-----------------------------------------")
+
+#BOOLEAN OPERATORS
+import random
+a=random.randint(1,9)
+b=random.randint(1,9)
+ans=eval(input("What is "+str(a)+" "+str(b)+" :- "))
+print("Your ans is :-",a+b==ans)
