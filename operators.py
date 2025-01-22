@@ -77,7 +77,7 @@ print("BITWISE")
 print(0 & 1)
 print(1 | 2)
 print(1 ^ 2) #Different True, Same False
-print(~ 1)
+print(~ 100) #-(n+1)
 print(1 << 2)
 print(1 >> 2)
 
