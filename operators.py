@@ -1,5 +1,5 @@
 '''Arithmetic Unary Comparison Bitwise Assignment
-Logical Membership Identity'''
+Logical Membership Identity Conditional'''
 
 #ARITHMETIC OPERATORS
 'Addition'
@@ -122,3 +122,20 @@ print('d' in b)
 
 print("-----------------------------------------")
 print("-----------------------------------------")
+
+#CONDITIONAL OPERATORS
+print("CONDITIONAL")
+
+a = 10
+b = 5
+if a>b:
+    print("a is greater")
+elif a<b:
+    print("b is greater")
+else:
+    print("a and b are equal")
+
+print("-----------------------------------------")
+print("-----------------------------------------")
+
+
