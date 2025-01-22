@@ -57,17 +57,29 @@ print("Your ans is :-",a+b==ans)'''
 print("-----------------------------------------")
 
 #COMPARSION OPERATORS
-
+print("COMPARSION")
 print(10>5)
 print(True>False)
 print(5.5>5)
 print('x'>'@')
 print('Z'<'5')
 print("Comparison operators compares the ASCII ")
-a = [0,100,6]
-b = [0,100,6]
-print(a==b)
+a = [1,200,2]
+b = [1,200,3]
+print(a<=b)
 
 print("-----------------------------------------")
 
+#BITWISE OPERATORS
+print("BITWISE")
 
+'''AND,OR,NOT,LEFT SHIFT,RIGHT SHIFT'''
+
+print("-----------------------------------------")
+
+#LOGICAL OPERATORS
+print("LOGICAL")
+
+print((2>3) and (3>2))
+print((2>3) or (3>2))
+print(not((2>3) or (3>2)))
