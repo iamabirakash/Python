@@ -87,6 +87,8 @@ print("-----------------------------------------")
 #LOGICAL OPERATORS
 print("LOGICAL")
 
+print(0 and 1)
+print(0 or 50)
 print((2>3) and (3>2))
 print((2>3) or (3>2))
 print(not((2>3) or (3>2)))
