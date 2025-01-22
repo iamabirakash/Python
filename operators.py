@@ -69,12 +69,19 @@ b = [1,200,3]
 print(a<=b)
 
 print("-----------------------------------------")
+print("-----------------------------------------")
 
 #BITWISE OPERATORS
 print("BITWISE")
-
 '''AND,OR,NOT,LEFT SHIFT,RIGHT SHIFT'''
+print(0 & 1)
+print(1 | 2)
+print(1 ^ 2) #Different True, Same False
+print(~ 1)
+print(1 << 2)
+print(1 >> 2)
 
+print("-----------------------------------------")
 print("-----------------------------------------")
 
 #LOGICAL OPERATORS
@@ -83,3 +90,6 @@ print("LOGICAL")
 print((2>3) and (3>2))
 print((2>3) or (3>2))
 print(not((2>3) or (3>2)))
+
+print("-----------------------------------------")
+print("-----------------------------------------")
