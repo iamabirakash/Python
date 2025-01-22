@@ -78,8 +78,8 @@ print(0 & 1)
 print(1 | 2)
 print(1 ^ 2) #Different True, Same False
 print(~ 100) #-(n+1)
-print(1 << 2)
-print(1 >> 2)
+print(5 << 2)
+print(5 >> 2)
 
 print("-----------------------------------------")
 print("-----------------------------------------")
@@ -92,6 +92,23 @@ print(0 or 50)
 print((2>3) and (3>2))
 print((2>3) or (3>2))
 print(not((2>3) or (3>2)))
+
+print("-----------------------------------------")
+print("-----------------------------------------")
+
+#IDENTITY OPERATORS
+print("IDENTITY")
+print("It compares the memory allocation of two identity operators")
+a = 5
+b = 5
+print(a is b)
+print(a is 5)
+print(a is not 5)
+print(1 is 1)
+print('a' is 'a')
+a = [1,2,3]
+b = [1,2,3]
+print(a is b) #Memory Allocation is different
 
 print("-----------------------------------------")
 print("-----------------------------------------")
