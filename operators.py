@@ -28,6 +28,24 @@ print("Floor Divison of a and b is :-",a//b)
 
 'Modulus'
 print("Modulus of a and b is :-",a%b)
+
+print("-----------------------------------------")
+
+a = [1,2,3]
+b = [4,5,6]
+print("List Individual Addition :-",a[0]*b[0])
+print("List Addition :-",a+b)
+
+a = (1,2,3)
+b = (4,5,6)
+print("Tuple Individual Addition :-",a[0]+b[0])
+print("Tuples Addition :-",a+b)
+
+a = {1:'a',2:'b',3:'c'}
+b = {4:'d',5:'e',6:'f'}
+print("Dictionaries can't be added")
+
+
 print("-----------------------------------------")
 
 #BOOLEAN OPERATORS
@@ -39,8 +57,17 @@ print("Your ans is :-",a+b==ans)'''
 print("-----------------------------------------")
 
 #COMPARSION OPERATORS
+
 print(10>5)
 print(True>False)
 print(5.5>5)
 print('x'>'@')
 print('Z'<'5')
+print("Comparison operators compares the ASCII ")
+a = [0,100,6]
+b = [0,100,6]
+print(a==b)
+
+print("-----------------------------------------")
+
+
