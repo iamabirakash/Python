@@ -112,3 +112,13 @@ print(a is b) #Memory Allocation is different
 
 print("-----------------------------------------")
 print("-----------------------------------------")
+
+#MEMBERSHIP OPERATORS
+print("MEMBERSHIP")
+
+b = ['a','b','c']
+print('b' in b)
+print('d' in b)
+
+print("-----------------------------------------")
+print("-----------------------------------------")
