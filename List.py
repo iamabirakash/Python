@@ -10,3 +10,13 @@ print(a[::-1])
 print(a[:5])
 print(a[2:])
 print(a[6:2:-1])
+
+b = "abcdefghijklmno"
+print(b[0])
+print(len(b))
+print(b[::])
+print(b[::-1])
+print(b[::2])
+print(b[::-2])
+print(b[1:9:3])
+print(b[14:1:-2])
